@@ -1,0 +1,154 @@
+body,html{    
+    font: normal 16px/1.5 Microsoft Yahei;
+    height: 100vh;
+}
+body{
+    background: #f4f4f4;;
+    color:#666;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color:#666;
+}
+
+
+/* flex 主要nav链接 */
+.main-nav-wrap {
+    padding: 6px 12px 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.main-nav-wrap ul.nav-list {
+    flex: 1;
+    height: 176px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 1px;
+}
+
+.main-nav-wrap ul.nav-list li.nav-item {
+    flex:1;
+    font-size:12px;
+    line-height: 15px;
+    text-align: center;
+    display: flex;
+}
+
+.main-nav-wrap ul.nav-list li.nav-item a {
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+}
+
+.main-nav-wrap ul.nav-list li.nav-item a span.main-nav-icon {
+    height: 28px;
+    width: 28px;
+    background-size: 28px auto; 
+    background-image: url(images/mainnav.png);
+}
+/* 每张小图片定位 */
+.main-nav-icon-jiudian{
+    background-position:0px -84px;
+}
+.main-nav-icon-minsu{
+    background-position:0px -336px;
+}
+.main-nav-icon-baokuan{
+    background-position:0px 0px;
+}
+.main-nav-icon-jipiao{
+    background-position:0px -168px;
+}
+.main-nav-icon-jijiutaocan{
+    background-position:0px -56px;
+}
+.main-nav-icon-hangbanzhushou{
+    background-position:0px -280px;
+}
+.main-nav-icon-huochepiao{
+    background-position:0px -364px;
+}
+.main-nav-icon-qichepiao{
+    background-position:0px -224px;
+}
+.main-nav-icon-zhuanche{
+    background-position:0px -252px;
+}
+.main-nav-icon-lvyou{
+    background-position:0px -140px;
+}
+.main-nav-icon-menpiaowanle{
+    background-position:0px -196px;
+}
+.main-nav-icon-zhoubianyou{
+    background-position:0px -392px;
+}
+.main-nav-icon-gonglve{
+    background-position:0px -28px;
+}
+.main-nav-icon-meishi{
+    background-position:0px -112px;
+}
+.main-nav-icon-gouwu{
+    background-position:0px -308px;
+}
+
+
+/* 每一大列的背景色 */
+.main-nav-wrap .nav-hotel {
+    background-color: #fff5f1;
+}
+.main-nav-wrap .nav-flight {
+    background-color: #eff9ff;
+}
+.main-nav-wrap .nav-train {
+    background-color: #f2f5ff;
+}
+.main-nav-wrap .nav-vacation {
+    background-color: #ecfcf8;
+}
+.main-nav-wrap .nav-gs {
+    background-color: #fff9f2;
+}
+
+
+
+
+
+
+/* 第一行的背景色 */
+.main-nav-wrap .nav-hotel:first-child {
+    border-top-left-radius: 8px;
+    background-image: linear-gradient(180deg,#fa5956,#fb8650);
+}
+.main-nav-wrap .nav-flight:first-child {
+    background-image: linear-gradient(180deg,#3c83fa,#50b2fa);
+}
+.main-nav-wrap .nav-train:first-child {
+    background-image: linear-gradient(0deg,#66a4ff,#5e80ff);
+}
+.main-nav-wrap .nav-vacation:first-child {
+    background-image: linear-gradient(180deg,#2fc3b6,#52d9b3);
+}
+.main-nav-wrap .nav-gs:first-child {
+    border-top-right-radius: 8px;
+    background-image: linear-gradient(0deg,#ffa846,#ff8939 99%);
+}
+
+
+/* 第一行文字变成白色 */
+.main-nav-wrap ul.nav-list li.nav-item:first-child>a {
+    color: #fff;
+}
+
